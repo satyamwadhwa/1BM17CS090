@@ -1,0 +1,16 @@
+list =[]
+
+n=int(input("enter the element"))
+
+for i in range(0 ,n):
+  element=int(input())
+  
+  list.append(element)
+print(list)
+
+list2 =[]
+
+for i in range (0 ,n):
+    if list[i]%2==0:
+        list2.append(list[i])
+print(list2)
